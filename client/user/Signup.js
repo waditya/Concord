@@ -1,1 +1,3 @@
-
+  constructor() {
+    state = { name: '', password: '', email: '', open: false, error: '' }
+  ...
