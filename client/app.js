@@ -1,5 +1,8 @@
 import {MuiThemeProvider, createMuiTheme} from 'material-ui/styles'
 import {indigo, pink} from 'material-ui/colors'
+import React from 'react'
+import MainRouter from './MainRouter'
+import {BrowserRouter} from 'react-router-dom'
 
 const theme = createMuiTheme({
   palette: {
@@ -21,3 +24,10 @@ const theme = createMuiTheme({
   }
 })
 
+const App = () => (
+  <BrowserRouter>
+    <MuiThemeProvider theme={theme}>
+      <MainRouter/>
+    </MuiThemeProvider>
+  </BrowserRouter>
+)
