@@ -1,0 +1,3 @@
+class Signin extends Component {
+  state = { email: '', password: '', error: '', redirectToReferrer: false } 
+...
