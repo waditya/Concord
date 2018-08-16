@@ -8,6 +8,9 @@ import Template from './../template'
 import userRoutes from './routes/user.routes'
 import authRoutes from './routes/auth.routes'
 
+//To serve static files to express
+import path from 'path'
+
 //Only for development
 import devBundle from './devBundle' //Comment for Prod environment
 
@@ -15,6 +18,12 @@ const app = express()
 
 devBundle.compile(app) //Comment for Prod environemnt
 	/* Configure Express*/
+	
+//To serve static files to express	
+const CURRENT_WORKING_DIR = process.cwd()
+app.use('/dist', express.static(path.join(CURRENT_WORKING_DIR, 'dist')))
+
+	
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cookieParser())
