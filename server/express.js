@@ -8,7 +8,12 @@ import Template from './../template'
 import userRoutes from './routes/user.routes'
 import authRoutes from './routes/auth.routes'
 
+//Only for development
+import devBundle from './devBundle' //Comment for Prod environment
+
 const app = express()
+
+devBundle.compile(app) //Comment for Prod environemnt
 	/* Configure Express*/
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
