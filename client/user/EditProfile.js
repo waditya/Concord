@@ -17,3 +17,6 @@ clickSubmit = () => {
       }
     })
 }
+
+if (this.state.redirectToProfile)
+   return (<Redirect to={'/user/' + this.state.userId}/>)
