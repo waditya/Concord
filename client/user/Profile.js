@@ -16,3 +16,10 @@ class Profile extends Component {
         this.setState({user: data})
     })
 }
+  
+componentDidMount = () => {
+  this.init(this.match.params.userId)
+}
+componentWillReceiveProps = (props) => {
+  this.init(props.match.params.userId)
+}
