@@ -33,3 +33,15 @@ style={isActive(history, "/users")}
        <Button style={isActive(history, "/signin")}> Sign In </Button>
     </Link>
 </span>)}
+
+                      {auth.isAuthenticated() && (<span>
+   <Link to={"/user/" + auth.isAuthenticated().user._id}>
+      <Button style={isActive(history, "/user/" + auth.isAuthenticated().user._id)}>
+ My Profile
+      </Button>
+   </Link>
+   <Button color="inherit" 
+           onClick={() => { auth.signout(() => history.push('/')) }}>
+Sign out
+   </Button>
+ </span>)}
