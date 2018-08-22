@@ -22,3 +22,5 @@ const isActive = (history, path) => {
   else
     return {color: '#ffffff'}
 }
+
+style={isActive(history, "/users")}
