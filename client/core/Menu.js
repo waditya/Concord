@@ -24,3 +24,12 @@ const isActive = (history, path) => {
 }
 
 style={isActive(history, "/users")}
+
+{!auth.isAuthenticated() && (<span>
+    <Link to="/signup">
+       <Button style={isActive(history, "/signup")}> Sign Up </Button>
+    </Link>
+    <Link to="/signin">
+       <Button style={isActive(history, "/signin")}> Sign In </Button>
+    </Link>
+</span>)}
