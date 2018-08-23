@@ -1,3 +1,4 @@
+//Deleting User
 class DeleteUser extends Component {
   state = { redirect: false, open: false } 
   
