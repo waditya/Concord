@@ -2,26 +2,26 @@
 
 Concord is a social media app with basic features similar to Facebook and Twihttps://github.com/waditya/Concord/blob/master/Sample.JPGtter. I have used MERN stack to implement features that allow users to connect, view content and interact with each other.M - MongoDB, E - Express, R - React and N - Node.
 
-#News Feed
+# News Feed
 
 ![sample](https://user-images.githubusercontent.com/4469379/44684643-367a0d80-aa0f-11e8-8e03-683505ca6125.JPG)
 
 
-#Profile Page - Followers
+# Profile Page - Followers
 
 ![image](https://user-images.githubusercontent.com/4469379/44684756-7f31c680-aa0f-11e8-90e3-c3996c006072.png)
 
-#Profile Description
+# Profile Description
 
 ![image](https://user-images.githubusercontent.com/4469379/44684914-dfc10380-aa0f-11e8-97df-6f5f9d736071.png)
 
-#What you need to run this code
+# What you need to run this code
 
   Node (8.11.1)
   NPM (5.8.0)
   MongoDB (3.6.3)
 
-#How to run this code
+# How to run this code
   Make sure MongoDB is running on your system
   Create project folder and initialize it with npm init
   Open command line in the project folder,
