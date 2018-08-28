@@ -9,7 +9,8 @@ Concord is a social media app with basic features similar to Facebook and Twitte
 
 # Profile Page - Followers
 
-![image](https://user-images.githubusercontent.com/4469379/44684756-7f31c680-aa0f-11e8-90e3-c3996c006072.png)
+![image](https://user-images.githubusercontent.com/4469379/44739345-2587d580-aabd-11e8-9d14-aaf49ca2e790.png)
+
 
 # Profile Description
 
