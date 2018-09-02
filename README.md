@@ -2,7 +2,7 @@
 
 Concord is a social media app with basic features similar to Facebook and Twitter https://github.com/waditya/Concord/blob/master/Sample.JPGtter. I have used MERN stack to implement features that allow users to connect, view content and interact with each other.M - MongoDB, E - Express, R - React and N - Node.
 
-# News Feed.
+# News Feed
 
 ![sample](https://user-images.githubusercontent.com/4469379/44684643-367a0d80-aa0f-11e8-8e03-683505ca6125.JPG)
 
